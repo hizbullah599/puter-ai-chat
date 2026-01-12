@@ -68,6 +68,12 @@ body {
   flex-direction: column;
   gap: 24px;
   overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.sidebar-content::-webkit-scrollbar {
+  display: none;
 }
 
 .sidebar-section {
@@ -125,6 +131,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.messages-area::-webkit-scrollbar {
+  display: none;
 }
 
 .message {
